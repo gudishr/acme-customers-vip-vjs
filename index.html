@@ -1,33 +1,58 @@
 <html>
+
   <head>
     <!-- <link rel="stylesheet" src="styles.css"> -->
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
+
     <h1>
       Acme Customers VIP
     </h1>
+
     <div id="input-form">
       <h3>Customer Input Form</h3>
+
       <div class="input-row">
         <label for="name">Name</label>
         <input id="name">
       </div>
+
       <div class="input-row">
         <label for="email">Email</label>
         <input id="email">
       </div>
+
       <div class="input-row">
         <label for="isvip">IsVIP</label>
         <input type="checkbox" id="isvip">
       </div>
+
+      <button id="4">Create</button>
     </div>
+
     <div id="container">
         <div class="Status">2 VIPS</div>
-        <div class="vip">moe (moe@gmail.com)</div>
-        <div class="vip">larry (larry@gmail.com)</div>
-        <div class="regular">shep (shep@gmail.com)</div>
+
+        <div class="vip">
+          <h3>moe (moe@gmail.com)</h3>
+          <button id="1" class="destroy">Destroy</button>
+          </div>
+
+        <div class="vip">
+          <h3>larry (larry@gmail.com)</h3>
+          <button id="2" class="destroy">Destroy</button>
+        </div>
+
+        <div class="regular">
+          <h3>shep (shep@gmail.com)</h3>
+          <button id="3" class="destroy">Destroy</button>
+        </div>
     </div>
+
   </body>
+
   <script src="scripts.js"></script>
+
 </html>
