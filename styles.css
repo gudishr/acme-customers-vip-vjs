@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
 }
 
-#input-form {
+.input-form {
   border: 1px solid black;
   padding: 30px;
 }
@@ -20,8 +20,10 @@ body {
 .input-row input {
   width: 75%;
 }
-
-.Status {
+#customerList {
+  margin-top: 10px;
+}
+.status {
   background-color: black;
   color: white;
   padding: 10px;
